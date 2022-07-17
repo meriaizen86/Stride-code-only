@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+	<TargetFramework>net6.0</TargetFramework>
+	<StrideGraphicsApi>Vulkan</StrideGraphicsApi>
+	  <RuntimeIdentifier>linux-x64</RuntimeIdentifier>	  
+    <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+   <PackageReference Include="CodeCapital.Stride.GameDefaults" Version="1.0.0-preview.5" />
+	  <PackageRefence Include="Stride.Core" Version="4.1.0.1734" />
+	  <PackageReference Include="Stride" Version="4.1.0.1734" />
+  </ItemGroup>
+
+</Project>
